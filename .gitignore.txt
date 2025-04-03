@@ -1,0 +1,26 @@
+# Fichiers Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environnement virtuel
+venv/
+env/
+
+# Base de données SQLite
+*.sqlite3
+
+# Fichiers sensibles
+.env
+secrets.json
+
+# Django
+/media/
+/staticfiles/
+/productionfiles/
+*.log
+
+# IDE
+.vscode/
+.idea/
