@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-q_3ttv5t%q4u+h&dfd_2w_j6^y96^y1g0#j2#s26%(t7tv9u$1
 DEBUG = False
 
 ALLOWED_HOSTS = [
-    "votre-service.onrender.com",
+    "JeyCode.onrender.com",
     "192.168.178.244",
     "localhost"
     ]
@@ -138,6 +138,7 @@ USE_TZ = True
 
 STATIC_ROOT = BASE_DIR / 'productionfiles'
 STATIC_URL = '/productionfiles/'
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
