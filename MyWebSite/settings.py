@@ -30,7 +30,7 @@ DEBUG = False
 #     "192.168.178.244",
 #     "localhost"
 #     ]
-
+ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
 
 # Application definition
 
