@@ -31,7 +31,7 @@ DEBUG = False
 #     "localhost"
 #     ]
 #ALLOWED_HOSTS = os.getenv('ALLOWED_HOSTS', '').split(',')
-ALLOWED_HOSTS = ['jeycode-dev.onrender.com']
+ALLOWED_HOSTS = ['mywebsite-752m.onrender.com']
 # Application definition
 
 INSTALLED_APPS = [
